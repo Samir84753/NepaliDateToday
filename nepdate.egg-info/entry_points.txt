@@ -1,0 +1,3 @@
+[console_scripts]
+nepalidate = src.date:main
+

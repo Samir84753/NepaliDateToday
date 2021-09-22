@@ -3,6 +3,7 @@ setup.py
 nepdate.egg-info/PKG-INFO
 nepdate.egg-info/SOURCES.txt
 nepdate.egg-info/dependency_links.txt
+nepdate.egg-info/entry_points.txt
 nepdate.egg-info/requires.txt
 nepdate.egg-info/top_level.txt
 src/__init__.py

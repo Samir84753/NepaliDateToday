@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import os
 
 
-VERSION = '0.0.1'
+VERSION = '0.0.3'
 DESCRIPTION = "Gets today's nepali date"
 LONG_DESCRIPTION = "A package that allows to get today's nepali date."
 
@@ -10,6 +10,11 @@ LONG_DESCRIPTION = "A package that allows to get today's nepali date."
 setup(
     name="nepdate",
     version=VERSION,
+   entry_points ={
+            'console_scripts': [
+                'nepalidate = src.date:main'
+            ]
+        },
     author="Samir Maharjan  ",
     author_email="Samir84753@gmail.com",
     description=DESCRIPTION,
